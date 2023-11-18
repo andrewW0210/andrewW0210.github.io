@@ -4,7 +4,7 @@ title:      "Learning documents collection"
 subtitle:   ""
 date:       2023-11-17 15:03:00
 author:     "yinghao"
-header-img: "img/post-bg-default.jpg"
+header-img: "img/post-bg-black.jpg"
 tags:
     - documents collection
 ---
@@ -13,7 +13,14 @@ tags:
 >
 > It can be messy, because I add or delete a link occasionally.
 
-[toc]
+#### Content Table
+
+- Linker
+- LLVM
+- Linux
+- RISC-V
+- Compiler
+- 计算机基础
 
 # Linker
 
@@ -39,6 +46,8 @@ linker scripts
 
 [LLVM doc](https://llvm.org/docs/) -- 最全面的 LLVM 学习资料(得抽空去了解一些doc的整体架构，方便后续查找)
 
+Pass 的学习主要还是得痛苦地看源码
+
 ## Code Size
 
 ### outline
@@ -47,7 +56,7 @@ linker scripts
 
 [A Video teaching Ukkonen](https://www.youtube.com/watch?v=aPRqocoBsFQ&t=2967s) -- 一个印度老师，通过举例详细解释了Ukkonen建立后缀树的过程
 
-## Inline for size
+### Inline for size
 
 [Paper](https://homepages.dcc.ufmg.br/~fernando/publications/papers/SBLP21Pacheco.pdf) -- 还没看
 
@@ -59,13 +68,13 @@ linker scripts
 
 # RISC-V
 
-[RISC-V Manual]({{ site.baseurl }}/_documents/RISC-V_Manual.pdf) -- RISC-V白皮书，主要查阅RISC-V汇编
+RISC-V白皮书 -- 主要查阅RISC-V汇编
 
 # Compiler
 
 [GCC 编译参数](https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html) -- 查阅编译器的链接参数
 
-[编译器设计]({{ site.baseurl }}/_document/compiler_design.pdf) -- 编译器设计入门书籍(没怎么看)
+编译器设计 -- 编译器设计入门书籍(没怎么看)
 
 龙书 -- 太理论了(没怎么看)
 
