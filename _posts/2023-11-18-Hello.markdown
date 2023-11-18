@@ -4,7 +4,7 @@ title:      "Welcome to my Blog"
 subtitle:   " \"Hello World, Hello Blog\""
 date:       2023-11-18 00:20:00
 author:     "yinghao"
-header-img: "img/post-bg-2015.jpg"
+header-img: ""
 tags:
     - Hello,Wolrd!
 ---
