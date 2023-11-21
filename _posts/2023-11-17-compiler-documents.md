@@ -46,7 +46,11 @@ linker scripts
 
 [LLVM doc](https://llvm.org/docs/) -- 最全面的 LLVM 学习资料(得抽空去了解一些doc的整体架构，方便后续查找)
 
-Pass 的学习主要还是得痛苦地看源码
+[其他项目文档](https://releases.llvm.org/)
+
+[Compiler Explorer](https://godbolt.org/) -- 一个看 PassPipeline 的东西
+
+Pass 的学习主要还是得耐心地去看源码(虽然很痛苦！)
 
 ## Code Size
 
