@@ -76,7 +76,7 @@ RISC-V白皮书 -- 主要查阅RISC-V汇编
 
 # Compiler
 
-[GCC 编译参数](https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html) -- 查阅编译器的链接参数
+[GCC 编译参数](https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html) -- 查阅编译器的编译参数
 
 编译器设计 -- 编译器设计入门书籍(没怎么看)
 
