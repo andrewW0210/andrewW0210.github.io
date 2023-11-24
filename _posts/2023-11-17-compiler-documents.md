@@ -72,7 +72,11 @@ Pass 的学习主要还是得耐心地去看源码(虽然很痛苦！)
 
 # RISC-V
 
-RISC-V白皮书 -- 主要查阅RISC-V汇编
+risc-v manual -- 主要查阅RISC-V汇编
+
+riscv-elf/riscv-abi -- 查询 risc-v elf format、relocations 等等
+
+[risc-v code model and its impact on relocations](https://www.sifive.com/blog/all-aboard-part-4-risc-v-code-models#what-does--mcmodelmedlow-mean)
 
 # Compiler
 
