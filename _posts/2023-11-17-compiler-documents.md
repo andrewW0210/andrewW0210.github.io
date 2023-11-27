@@ -42,7 +42,7 @@ linker scripts
 >
 > [gnu ld](https://ftp.gnu.org/old-gnu/Manuals/ld-2.9.1/html_mono/ld.html) -- 全面的链接器文档
 
-[程序员自我修养--链接、装载、库] -- 可以了解链接、装载、库、运行时库的基本知识
+程序员自我修养--链接、装载、库 -- 可以了解链接、装载、库、运行时库的基本知识
 
 # LLVM
 
