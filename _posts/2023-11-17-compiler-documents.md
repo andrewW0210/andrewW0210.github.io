@@ -9,7 +9,7 @@ tags:
     - documents collection
 ---
 
-> Used for collecting my learning documents.
+> Used for collecting my learning documents. （Prevent form losing them：）
 >
 > It can be messy, because I add or delete a link occasionally.
 
@@ -52,7 +52,7 @@ linker scripts
 
 [Compiler Explorer](https://godbolt.org/) -- 一个看 PassPipeline 的东西
 
-Pass 的学习主要还是得耐心地去看源码(虽然很痛苦！)
+Pass 的学习主要还是得耐心地去看源码(虽然很痛苦:)
 
 ## Code Size
 
@@ -80,6 +80,8 @@ riscv-elf/riscv-abi -- 查询 risc-v elf format、relocations 等等
 
 [risc-v code model and its impact on relocations](https://www.sifive.com/blog/all-aboard-part-4-risc-v-code-models#what-does--mcmodelmedlow-mean)
 
+[code model's impact on addressing](https://starfivetech.com/uploads/riscv-large-code-model-workaround.pdf)
+
 # Compiler
 
 [GCC 编译参数](https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html) -- 查阅编译器的编译参数
@@ -93,3 +95,13 @@ riscv-elf/riscv-abi -- 查询 risc-v elf format、relocations 等等
 计算机系统要素 -- 从门电路开始逐步构建计算机
 
 CS:APP -- 太经典了
+
+# 杂项
+## semihost
+[What is semihost and how to use it](https://embeddedinn.com/articles/tutorial/understanding-riscv-semihosting/)
+
+## 异常处理
+waitting for updates...
+
+## really good stuff
+[A drunk programmer](https://old.reddit.com/r/ExperiencedDevs/comments/nmodyl/drunk_post_things_ive_learned_as_a_sr_engineer/)
