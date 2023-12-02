@@ -21,6 +21,7 @@ tags:
 - RISC-V
 - Compiler
 - 计算机基础
+- 其他杂项
 
 # Linker
 
@@ -28,7 +29,10 @@ tags:
 
 [MaskRay's Blog](https://maskray.me/blog) -- 宋方锐大佬的Blog，很多链接器相关的博客
 
-[ThinLTO Design](https://blog.llvm.org/2016/06/thinlto-scalable-and-incremental-lto.html) -- ThinLTO 的设计相关介绍
+ThinLTO
+> [ThinLTO Design](https://blog.llvm.org/2016/06/thinlto-scalable-and-incremental-lto.html) -- ThinLTO 的设计相关介绍
+>
+> [Video](https://www.youtube.com/watch?v=VAMvr1rXmg8)
 
 lld 程序流程分析
 
