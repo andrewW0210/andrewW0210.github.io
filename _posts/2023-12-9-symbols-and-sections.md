@@ -522,7 +522,7 @@ hello-lto.o: LLVM IR bitcode
 
 如图，在 no-lto 模式下，源文件通过编译阶段(其中包括opt的优化，backend的代码生成)，生成目标文件。目标文件作为 linker 的输入，最终生成可执行文件。
 
-![image-20231210150711689](C:\Users\wang_\AppData\Roaming\Typora\typora-user-images\image-20231210150711689.png)
+![no-lto](img/symbols-and-sections/no-lto.png)
 
 ---
 
@@ -532,7 +532,7 @@ hello-lto.o: LLVM IR bitcode
 
 这些 bitcode 文件作为链接器的输入，那么在链接阶段，如果我们把这些 bitcode 文件“拼在一起”，是不是就拿到了程序的全局信息？在掌握这个全局信息以后，我们可以在整个程序的中间代码上做一些更加激进的优化。
 
-![Snipaste_2023-12-09_11-00-13](C:\Users\wang_\Desktop\新建文件夹\Snipaste_2023-12-09_11-00-13.png)
+![lto](img/symbols-and-sections/lto.png)
 
 ---
 
