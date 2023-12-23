@@ -27,12 +27,21 @@ tags:
 
 [ELF file](https://blog.k3170makan.com/2018/09/introduction-to-elf-format-elf-header.html) -- 主要介绍了 ELF Header，Section Header，Program Header的内容
 
-[MaskRay's Blog](https://maskray.me/blog) -- 宋方锐大佬的Blog，很多链接器相关的博客
+[MaskRay linker report](https://bilibili.com/video/BV1vi4y197v7/?spm_id_from=333.337.search-card.all.click&vd_source=929f384075581b0b732288e593bb23b6) -- B站上 MaskRay 关于 lld 的介绍
+
+[MaskRay's Blog](https://maskray.me/blog) -- 宋方睿大佬的Blog，很多链接器相关的博客
+
+[introduction of lld](https://www.youtube.com/watch?v=yTtWohFzS6s&t=9s) -- lld 的开发者对 lld 的介绍(似乎主要是性能介绍) 
 
 ThinLTO
 > [ThinLTO Design](https://blog.llvm.org/2016/06/thinlto-scalable-and-incremental-lto.html) -- ThinLTO 的设计相关介绍
 >
 > [Video](https://www.youtube.com/watch?v=VAMvr1rXmg8)
+
+relaxation
+>[lld's relaxation design](https://maskray.me/blog/2022-07-10-riscv-linker-relaxation-in-lld)
+>
+>[dark side of it](https://maskray.me/blog/2021-03-14-the-dark-side-of-riscv-linker-relaxation)
 
 lld 程序流程分析
 
@@ -66,6 +75,11 @@ Pass 的学习主要还是得耐心地去看源码(虽然很痛苦:)
 
 [A Video teaching Ukkonen](https://www.youtube.com/watch?v=aPRqocoBsFQ&t=2967s) -- 一个印度老师，通过举例详细解释了Ukkonen建立后缀树的过程
 
+'pcrel_lo' illegal check
+>[issue 90](https://github.com/riscv-non-isa/riscv-elf-psabi-doc/issues/90)
+>
+>[D132528](https://reviews.llvm.org/D132528)
+
 ### Inline for size
 
 [Paper](https://homepages.dcc.ufmg.br/~fernando/publications/papers/SBLP21Pacheco.pdf) -- 还没看
@@ -76,7 +90,11 @@ Pass 的学习主要还是得耐心地去看源码(虽然很痛苦:)
 
 [missing semester](https://missing-semester-cn.github.io/) -- 入门学习 Linux 指令的好教程
 
+[linux manual page](https://man7.org/linux/man-pages/)
+
 # RISC-V
+
+[Sifive's Blog](https://www.sifive.com/blog)
 
 risc-v manual -- 主要查阅RISC-V汇编
 
@@ -105,7 +123,22 @@ CS:APP -- 太经典了
 [What is semihost and how to use it](https://embeddedinn.com/articles/tutorial/understanding-riscv-semihosting/)
 
 ## 异常处理
-waitting for updates...
+[exceptions and stack unwinding in c++](https://learn.microsoft.com/en-us/cpp/cpp/exceptions-and-stack-unwinding-in-cpp?view=msvc-170)
+
+About .eh_frame
+> https://refspecs.linuxfoundation.org/LSB_3.0.0/LSB-Core-generic/LSB-Core-generic/ehframechpt.html
+>
+> https://web.archive.org/web/20130111101034/http://blog.mozilla.org/respindola/2011/05/12/cfi-directives
+
+[About .gcc_except_table](https://martin.uy/blog/understanding-the-gcc_except_table-section-in-elf-binaries-gcc/)
+
+
+
+## COMDAT
+[what is comdat](https://tianshilei.me/comdat-in-llvm/)
+
+## debug
+[how debug section works](https://eli.thegreenplace.net/2011/02/07/how-debuggers-work-part-3-debugging-information)
 
 ## really good stuff
 [A drunk programmer](https://old.reddit.com/r/ExperiencedDevs/comments/nmodyl/drunk_post_things_ive_learned_as_a_sr_engineer/)
