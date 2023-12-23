@@ -118,6 +118,9 @@ riscv-elf/riscv-abi -- 查询 risc-v elf format、relocations 等等
 
 CS:APP -- 太经典了
 
+# C++
+[cppreference.com](https://en.cppreference.com/w/)
+
 # 杂项
 ## semihost
 [What is semihost and how to use it](https://embeddedinn.com/articles/tutorial/understanding-riscv-semihosting/)
@@ -131,7 +134,6 @@ About .eh_frame
 > https://web.archive.org/web/20130111101034/http://blog.mozilla.org/respindola/2011/05/12/cfi-directives
 
 [About .gcc_except_table](https://martin.uy/blog/understanding-the-gcc_except_table-section-in-elf-binaries-gcc/)
-
 
 
 ## COMDAT
