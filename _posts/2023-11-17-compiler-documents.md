@@ -125,6 +125,8 @@ CS:APP -- 太经典了
 ## semihost
 [What is semihost and how to use it](https://embeddedinn.com/articles/tutorial/understanding-riscv-semihosting/)
 
+[How it works](https://interrupt.memfault.com/blog/arm-semihosting)
+
 ## 异常处理
 [exceptions and stack unwinding in c++](https://learn.microsoft.com/en-us/cpp/cpp/exceptions-and-stack-unwinding-in-cpp?view=msvc-170)
 
