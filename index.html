@@ -73,114 +73,6 @@
       <div class="outer">
         <section id="main">
   
-    <article id="post-compiler-collection" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2023/11/17/compiler-collection/" class="article-date">
-  <time class="dt-published" datetime="2023-11-17T07:03:00.000Z" itemprop="datePublished">2023-11-17</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2023/11/17/compiler-collection/">Learning documents collection</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <blockquote>
-<p>Used for collecting my learning documents. （Prevent form losing them：）</p>
-<p>It can be messy, because I add or delete a link occasionally.</p>
-</blockquote>
-<h1 id="Linker"><a href="#Linker" class="headerlink" title="Linker"></a>Linker</h1><p><a target="_blank" rel="noopener" href="https://blog.k3170makan.com/2018/09/introduction-to-elf-format-elf-header.html">ELF file</a> – 主要介绍了 ELF Header，Section Header，Program Header的内容</p>
-<p><a target="_blank" rel="noopener" href="https://bilibili.com/video/BV1vi4y197v7/?spm_id_from=333.337.search-card.all.click&vd_source=929f384075581b0b732288e593bb23b6">MaskRay linker report</a> – B站上 MaskRay 关于 lld 的介绍</p>
-<p><a target="_blank" rel="noopener" href="https://maskray.me/blog">MaskRay’s Blog</a> – 宋方睿大佬的Blog，很多链接器相关的博客</p>
-<p><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=yTtWohFzS6s&t=9s">introduction of lld</a> – lld 的开发者对 lld 的介绍(似乎主要是性能介绍) </p>
-<p>ThinLTO</p>
-<blockquote>
-<p><a target="_blank" rel="noopener" href="https://blog.llvm.org/2016/06/thinlto-scalable-and-incremental-lto.html">ThinLTO Design</a> – ThinLTO 的设计相关介绍</p>
-<p><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=VAMvr1rXmg8">Video</a></p>
-</blockquote>
-<p>relaxation</p>
-<blockquote>
-<p><a target="_blank" rel="noopener" href="https://maskray.me/blog/2022-07-10-riscv-linker-relaxation-in-lld">lld’s relaxation design</a></p>
-<p><a target="_blank" rel="noopener" href="https://maskray.me/blog/2021-03-14-the-dark-side-of-riscv-linker-relaxation">dark side of it</a></p>
-</blockquote>
-<p>lld 程序流程分析</p>
-<blockquote>
-<p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/174077712">https://zhuanlan.zhihu.com/p/174077712</a></p>
-<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/dashuniuniu/article/details/122769486">https://blog.csdn.net/dashuniuniu/article/details/122769486</a></p>
-</blockquote>
-<p>linker scripts</p>
-<blockquote>
-<p><a target="_blank" rel="noopener" href="https://interrupt.memfault.com/blog/how-to-write-linker-scripts-for-firmware">https://interrupt.memfault.com/blog/how-to-write-linker-scripts-for-firmware</a></p>
-<p><a target="_blank" rel="noopener" href="https://ftp.gnu.org/old-gnu/Manuals/ld-2.9.1/html_mono/ld.html">gnu ld</a> – 全面的链接器文档</p>
-</blockquote>
-<p>程序员自我修养–链接、装载、库 – 可以了解链接、装载、库、运行时库的基本知识</p>
-<h1 id="LLVM"><a href="#LLVM" class="headerlink" title="LLVM"></a>LLVM</h1><p><a target="_blank" rel="noopener" href="https://llvm.org/docs/">LLVM doc</a> – 最全面的 LLVM 学习资料(得抽空去了解一些doc的整体架构，方便后续查找)</p>
-<p><a target="_blank" rel="noopener" href="https://releases.llvm.org/">其他项目文档</a></p>
-<p><a target="_blank" rel="noopener" href="https://godbolt.org/">Compiler Explorer</a> – 一个看 PassPipeline 的东西</p>
-<p>Pass 的学习主要还是得耐心地去看源码(虽然很痛苦:)</p>
-<h2 id="Code-Size"><a href="#Code-Size" class="headerlink" title="Code Size"></a>Code Size</h2><h3 id="outline"><a href="#outline" class="headerlink" title="outline"></a>outline</h3><p><a target="_blank" rel="noopener" href="https://www.geeksforgeeks.org/">geeskforgeeks.org</a> – 算法学习网站，当初在上面学习了Ukkonen后缀树构建算法</p>
-<p><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=aPRqocoBsFQ&t=2967s">A Video teaching Ukkonen</a> – 一个印度老师，通过举例详细解释了Ukkonen建立后缀树的过程</p>
-<p>‘pcrel_lo’ illegal check</p>
-<blockquote>
-<p><a target="_blank" rel="noopener" href="https://github.com/riscv-non-isa/riscv-elf-psabi-doc/issues/90">issue 90</a></p>
-<p><a target="_blank" rel="noopener" href="https://reviews.llvm.org/D132528">D132528</a></p>
-</blockquote>
-<h3 id="Inline-for-size"><a href="#Inline-for-size" class="headerlink" title="Inline for size"></a>Inline for size</h3><p><a target="_blank" rel="noopener" href="https://homepages.dcc.ufmg.br/~fernando/publications/papers/SBLP21Pacheco.pdf">Paper</a> – 还没看</p>
-<p><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=8Uiv2RsPim4">A Vedio</a> – 还没看</p>
-<h1 id="Linux"><a href="#Linux" class="headerlink" title="Linux"></a>Linux</h1><p><a target="_blank" rel="noopener" href="https://missing-semester-cn.github.io/">missing semester</a> – 入门学习 Linux 指令的好教程</p>
-<p><a target="_blank" rel="noopener" href="https://man7.org/linux/man-pages/">linux manual page</a></p>
-<h1 id="RISC-V"><a href="#RISC-V" class="headerlink" title="RISC-V"></a>RISC-V</h1><p><a target="_blank" rel="noopener" href="https://www.sifive.com/blog">Sifive’s Blog</a></p>
-<p>risc-v manual – 主要查阅RISC-V汇编</p>
-<p>riscv-elf&#x2F;riscv-abi – 查询 risc-v elf format、relocations 等等</p>
-<p><a target="_blank" rel="noopener" href="https://www.sifive.com/blog/all-aboard-part-4-risc-v-code-models#what-does--mcmodelmedlow-mean">risc-v code model and its impact on relocations</a></p>
-<p><a target="_blank" rel="noopener" href="https://starfivetech.com/uploads/riscv-large-code-model-workaround.pdf">code model’s impact on addressing</a></p>
-<h1 id="Compiler"><a href="#Compiler" class="headerlink" title="Compiler"></a>Compiler</h1><p><a target="_blank" rel="noopener" href="https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html">GCC 编译参数</a> – 查阅编译器的编译参数</p>
-<p>编译器设计 – 编译器设计入门书籍(没怎么看)</p>
-<p>龙书 – 太理论了(没怎么看)</p>
-<h1 id="计算机基础"><a href="#计算机基础" class="headerlink" title="计算机基础"></a>计算机基础</h1><p>计算机系统要素 – 从门电路开始逐步构建计算机</p>
-<p>CS:APP – 太经典了</p>
-<h1 id="C"><a href="#C" class="headerlink" title="C++"></a>C++</h1><p><a target="_blank" rel="noopener" href="https://en.cppreference.com/w/">cppreference.com</a></p>
-<h1 id="杂项"><a href="#杂项" class="headerlink" title="杂项"></a>杂项</h1><h2 id="C-lib"><a href="#C-lib" class="headerlink" title="C lib"></a>C lib</h2><p><a target="_blank" rel="noopener" href="https://users.informatik.haw-hamburg.de/~krabat/FH-Labor/gnupro/7_GNUPro_Embedded_Development/emblibgloss_newlib_and_libstd_the_G.html">libgloss, newlib and libstd++, the GNU libraries</a></p>
-<h2 id="semihost"><a href="#semihost" class="headerlink" title="semihost"></a>semihost</h2><p><a target="_blank" rel="noopener" href="https://embeddedinn.com/articles/tutorial/understanding-riscv-semihosting/">What is semihost and how to use it</a></p>
-<p><a target="_blank" rel="noopener" href="https://interrupt.memfault.com/blog/arm-semihosting">How it works</a></p>
-<h2 id="异常处理"><a href="#异常处理" class="headerlink" title="异常处理"></a>异常处理</h2><p><a target="_blank" rel="noopener" href="https://learn.microsoft.com/en-us/cpp/cpp/exceptions-and-stack-unwinding-in-cpp?view=msvc-170">exceptions and stack unwinding in c++</a></p>
-<p>About .eh_frame</p>
-<blockquote>
-<p><a target="_blank" rel="noopener" href="https://refspecs.linuxfoundation.org/LSB_3.0.0/LSB-Core-generic/LSB-Core-generic/ehframechpt.html">https://refspecs.linuxfoundation.org/LSB_3.0.0/LSB-Core-generic/LSB-Core-generic/ehframechpt.html</a></p>
-<p><a target="_blank" rel="noopener" href="https://web.archive.org/web/20130111101034/http://blog.mozilla.org/respindola/2011/05/12/cfi-directives">https://web.archive.org/web/20130111101034/http://blog.mozilla.org/respindola/2011/05/12/cfi-directives</a></p>
-</blockquote>
-<p><a target="_blank" rel="noopener" href="https://martin.uy/blog/understanding-the-gcc_except_table-section-in-elf-binaries-gcc/">About .gcc_except_table</a></p>
-<h2 id="COMDAT"><a href="#COMDAT" class="headerlink" title="COMDAT"></a>COMDAT</h2><p><a target="_blank" rel="noopener" href="https://tianshilei.me/comdat-in-llvm/">what is comdat</a></p>
-<h2 id="debug"><a href="#debug" class="headerlink" title="debug"></a>debug</h2><p><a target="_blank" rel="noopener" href="https://eli.thegreenplace.net/2011/02/07/how-debuggers-work-part-3-debugging-information">how debug section works</a></p>
-<h2 id="really-good-stuff"><a href="#really-good-stuff" class="headerlink" title="really good stuff"></a>really good stuff</h2><p><a target="_blank" rel="noopener" href="https://old.reddit.com/r/ExperiencedDevs/comments/nmodyl/drunk_post_things_ive_learned_as_a_sr_engineer/">A drunk programmer</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2023/11/17/compiler-collection/" data-id="clrbjp6e70002k0jtgjoihqnd" data-title="Learning documents collection" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/documents-collection/" rel="tag">documents collection</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
     <article id="post-My-Hello-World" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2023/11/17/My-Hello-World/" class="article-date">
@@ -311,7 +203,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/tags/Hello-Wolrd/" style="font-size: 10px;">Hello,Wolrd!</a> <a href="/tags/documents-collection/" style="font-size: 10px;">documents collection</a>
+      <a href="/tags/Hello-Wolrd/" style="font-size: 20px;">Hello,Wolrd!</a> <a href="/tags/documents-collection/" style="font-size: 10px;">documents collection</a>
     </div>
   </div>
 
@@ -331,10 +223,6 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
-        
-          <li>
-            <a href="/2023/11/17/compiler-collection/">Learning documents collection</a>
-          </li>
         
           <li>
             <a href="/2023/11/17/My-Hello-World/">It&#39;s my Hello,World!</a>
